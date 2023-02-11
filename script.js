@@ -24,7 +24,7 @@ return data.json();
       
       <img src=${data.images[0]} height="300" width="100" alt="not" border="2px solid black" /> &nbsp  <img src=${data.images[1]} height="200" width="200" alt="photo"  justifyContent="space-between"  /> &nbsp <img src=${data.images[2]} height="200" width="200" alt="photo" border="1px solid black" box-sizing="border-box"  justifyContent="space-between"  />&nbsp <img src=${data.images[3]} height="200" width="200" alt="photo" border="1px solid black" box-sizing="border-box"  justifyContent="space-between"  /> &nbsp <img src=${data.images[4]} height="200" width="200" alt="photo" border="1px solid black"  />   
      <br>
-     Name  ${data.category} &nbsp&nbsp &nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp Name ${data.category}&nbsp&nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp &nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp Name  ${data.category}&nbsp&nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp  Title  ${data.category}&nbsp&nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp Title  ${data.category} 
+     Name  ${data.category} &nbsp&nbsp &nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp Name ${data.category}&nbsp&nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp &nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp Name  ${data.category}&nbsp&nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp  Name  ${data.category}&nbsp&nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp Name  ${data.category} 
       <br>
       Company:${data.brand} &nbsp&nbsp &nbsp&nbsp&nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp &nbsp&nbsp&nbsp &nbsp&nbsp&nbsp &nbsp Brand:${data.brand}&nbsp&nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp &nbsp&nbsp&nbsp &nbsp  &nbsp Brand:${data.brand}&nbsp&nbsp &nbsp&nbsp&nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp &nbsp Brand:${data.brand}&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp &nbsp&nbsp&nbsp &nbsp  &nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp &nbsp Brand:${data.brand}
       <br>
@@ -45,7 +45,7 @@ return data.json();
       cr.style.display="flex";
      cr.style.flexDirection="row";
       
-      cr.style.justifyContent="space-evenly";
+      cr.style.justifyContent="space-between";
     cr.style.display="border-box blue"
         
     cr.style.height="200px";
